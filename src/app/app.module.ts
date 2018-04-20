@@ -9,9 +9,9 @@ import { CartasFormComponent } from './components/cartas-form/cartas-form.compon
 
 
 //Services
-import { CardsService } from './services/cards.service';
-import { WantsService } from './services/wants.service';
-import { SellersService } from './services/sellers.service';
+import { CardsService } from './providers/cards.service';
+import { WantsService } from './providers/wants.service';
+import { SellersService } from './providers/sellers.service';
 
 
 @NgModule({
@@ -25,9 +25,7 @@ import { SellersService } from './services/sellers.service';
     ReactiveFormsModule,
     HttpClientModule
   ],
-  providers: [
-    
-  ],
+  providers: [CardsService, SellersService, WantsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
