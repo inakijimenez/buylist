@@ -1,0 +1,79 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "cards": [
+    {
+      "nombre": "Ivory Tower",
+      "id": 2
+    },
+    {
+      "name": "Sedge Troll",
+      "id": 3
+    },
+    {
+      "name": "Copy Artifact",
+      "id": 4
+    },
+    {
+      "name": "Savannah Lions",
+      "id": 5
+    },
+    {
+      "name": "Savannah Lions",
+      "id": 6
+    },
+    {
+      "name": "Fork",
+      "id": 7
+    },
+    {
+      "name": "Fireball",
+      "id": 8
+    },
+    {
+      "name": "Nether Void",
+      "id": 9
+    },
+    {
+      "nombre": "Ivory Tower",
+      "id": 10
+    }
+  ],
+  "sellers": [
+    {
+      "id": 1,
+      "nombre": "Unknown",
+      "stock": []
+    },
+    {
+      "name": "Menor",
+      "stock": [],
+      "id": 2
+    },
+    {
+      "name": "Troporrico",
+      "stock": [],
+      "id": 3
+    },
+    {
+      "name": "Angelo",
+      "stock": [],
+      "id": 4
+    }
+  ]
+}

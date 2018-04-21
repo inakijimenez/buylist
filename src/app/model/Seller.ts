@@ -5,9 +5,8 @@ export class Seller {
     name: string;
     stock: CardStock[];
 
-    constructor(id: number, name: string) {
-        this.id = id;
-        this.name = name;
+    constructor() {        
+        this.name = '';
         this.stock = [];
     }
 }

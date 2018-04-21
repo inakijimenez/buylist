@@ -1,14 +1,10 @@
 <div class="container">
   <h2>Cartas Form</h2>
-  <form>
-    <div class="form-group">
-      <label for="id_carta">Id Carta</label>
-      <input type="number" class="form-control" id="id_carta" placeholder="Id Carta">
-
-    </div>
+  <form novalidate (ngSubmit)="submit()" [formGroup]="formCartas">
+    
     <div class="form-group">
       <label for="nombre_carta">Nombre Carta</label>
-      <input type="text" class="form-control" id="nombre:carta" placeholder="Nombre Carta">
+      <input type="text" class="form-control" id="nombre_carta" placeholder="Nombre Carta" formControlName="nombreCarta">
     </div>
     <button type="submit" class="btn btn-primary">Submit</button>
   </form>

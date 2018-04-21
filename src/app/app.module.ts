@@ -12,12 +12,14 @@ import { CartasFormComponent } from './components/cartas-form/cartas-form.compon
 import { CardsService } from './providers/cards.service';
 import { WantsService } from './providers/wants.service';
 import { SellersService } from './providers/sellers.service';
+import { SellersComponent } from './components/sellers/sellers.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    CartasFormComponent
+    CartasFormComponent,
+    SellersComponent
   ],
   imports: [
     BrowserModule,
@@ -25,8 +27,11 @@ import { SellersService } from './providers/sellers.service';
     ReactiveFormsModule,
     HttpClientModule
   ],
-  providers: [CardsService, SellersService, WantsService],
+  providers: [
+    CardsService, 
+    SellersService, 
+    WantsService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
-//TODO importar services

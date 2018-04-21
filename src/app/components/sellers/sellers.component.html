@@ -1,0 +1,11 @@
+<div class="container">
+  <h2>Sellers Form</h2>
+  <form novalidate (ngSubmit)="submit()" [formGroup]="formSellers">
+    
+    <div class="form-group">
+      <label for="nombre_seller">Nombre Seller</label>
+      <input type="text" class="form-control" id="nombre_seller" placeholder="Nombre Seller" formControlName="nombreSeller">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
